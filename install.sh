@@ -6,7 +6,7 @@ while true; do
 
   case "$choice" in
     y|Y)
-      yay -S ttf-nerd-fonts-symbols-common ttf-opensans ttf-font-awesome ttf-bistream-vera ttf-dejavu ttf-liberation sway-bg otf-font-awesome wl-roots
+      pacman -S foot  ttf-nerd-fonts-symbols-common ttf-opensans ttf-font-awesome ttf-bistream-vera ttf-dejavu ttf-liberation sway-bg otf-font-awesome wl-roots
       install
       echo "Finished install, you can start sway now"
       break
@@ -25,5 +25,5 @@ done
 install() { 
   git clone https://github.com/coderstarrer/dotfiles.git
   cd ~/dotfiles
-  mv rofi sway waybar ~/.config/
+  mv rofi sway waybar foot  ~/.config/
 }
