@@ -1,4 +1,7 @@
-# Dracula for [rofi](https://github.com/davatorium/rofi)
+# Dracula Modified theme for [rofi](https://github.com/davatorium/rofi)
+
+## All credit goes to the original creators(Dracula theme). I simply only modified it
+
 
 > A dark theme for [rofi](https://github.com/davatorium/rofi).
 
